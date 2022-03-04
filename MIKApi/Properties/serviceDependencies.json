@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "MikContext"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureStorageSecret/StorageConnString"
+    }
+  }
+}

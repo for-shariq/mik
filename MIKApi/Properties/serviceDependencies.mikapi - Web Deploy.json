@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.Sql/servers/mik-dbserver/databases/mikdb",
+      "type": "mssql.azure",
+      "connectionId": "MikContext",
+      "secretStore": "AzureAppSettings"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup1')]/providers/Microsoft.Storage/storageAccounts/storageaccmik",
+      "type": "storage.azure",
+      "connectionId": "AzureStorageSecret/StorageConnString",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
